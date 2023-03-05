@@ -1,73 +1,128 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>My Portfolio</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-	<header>
-		<h1>My Portfolio</h1>
-		<nav>
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<main>
-
-		<section id="about">
-			<h2>About Me</h2>
-			<p>Hi, my name is [Your Name] and I am a [Your Profession]. I specialize in [Your Specialization]. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet urna hendrerit, sodales ex eu, rutrum nulla. Duis porttitor sit amet mauris quis hendrerit. Suspendisse potenti. Vestibulum bibendum sem ut neque elementum rhoncus. Nulla id pharetra nulla. Pellentesque nec aliquet arcu.</p>
-		</section>
-
-		<section id="portfolio">
-			<h2>Portfolio</h2>
-			<ul>
-				<li>
-					<img src="portfolio-item-1.jpg" alt="Portfolio Item 1">
-					<h3>Portfolio Item 1</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet urna hendrerit, sodales ex eu, rutrum nulla.</p>
-				</li>
-				<li>
-					<img src="portfolio-item-2.jpg" alt="Portfolio Item 2">
-					<h3>Portfolio Item 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet urna hendrerit, sodales ex eu, rutrum nulla.</p>
-				</li>
-				<li>
-					<img src="portfolio-item-3.jpg" alt="Portfolio Item 3">
-					<h3>Portfolio Item 3</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet urna hendrerit, sodales ex eu, rutrum nulla.</p>
-				</li>
-			</ul>
-		</section>
-
-		<section id="contact">
-			<h2>Contact Me</h2>
-			<form action="submit-form.php" method="post">
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name" required>
-
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email" required>
-
-				<label for="message">Message:</label>
-				<textarea id="message" name="message" required></textarea>
-
-				<input type="submit" value="Send">
-			</form>
-		</section>
-
-	</main>
-
-	<footer>
-		<p>&copy; [Your Name] 2023. All Rights Reserved.</p>
-	</footer>
-
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Maliyah Mohamed</title>
+    <style>
+      /* Internal CSS */
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f2f2f2;
+      }
+      
+      #header {
+        background-color: #292929;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      #header h1 {
+        margin: 0;
+        font-size: 48px;
+        text-shadow: 2px 2px 2px #333;
+      }
+      
+      nav {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+      
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+      
+      nav li {
+        margin-right: 20px;
+      }
+      
+      nav a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 24px;
+        transition: color 0.2s ease-in-out;
+      }
+      
+      nav a:hover {
+        color: #ddd;
+      }
+      
+      #intro {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      
+      #intro h2 {
+        margin: 0;
+        font-size: 36px;
+        color: #292929;
+        text-shadow: 1px 1px 1px #ddd;
+      }
+      
+      #intro p {
+        font-size: 18px;
+        color: #666;
+      }
+      
+      .project {
+        background-color: #fff;
+        color: #292929;
+        padding: 20px;
+        margin-bottom: 40px;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+      }
+      
+      .project h3 {
+        margin-top: 0;
+        font-size: 24px;
+      }
+      
+      .project img {
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+      
+      .project p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      
+      #footer {
+        background-color: #292929;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      #footer p {
+        margin: 0;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <h1>Responses</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="intro">
+      <h2>Welcome to My Responses</h2>
+      <p>Here you can find responses to readings.</p>
+    </div>
+    <
