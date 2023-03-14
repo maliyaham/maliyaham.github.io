@@ -9,13 +9,18 @@ padding: 0;
 }
 
 a {
-color: #ffffff;
+color: #000000;
 text-decoration: none;
 }
 
 a:hover {
 color: #ffff00;
 }
+.container {
+	max-width: 960px; 
+	margin: 0 auto; 
+	text-align: center;
+	}
 
 #header {
 background-color: #000000;
@@ -79,6 +84,7 @@ margin: 0 0 10px;
 }
 
 #content p {
+color: #000000;
 margin: 0 0 20px;
 text-align: justify;
 }
@@ -97,7 +103,7 @@ text-align: center;
 }
 
 #footer p {
-color: #ffffff;
+color: #000000;
 font-size: 12px;
 margin: 0;
 }
