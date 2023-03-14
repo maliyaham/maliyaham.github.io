@@ -1,0 +1,94 @@
+body {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    cursor: url('purplecursor.png'), auto;
+    display: flex;
+    justify-content: center;
+}
+
+#header, #nav, #content {
+    width: 80%; /* adjust this value to your preference */
+}
+
+#header {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#nav {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#nav a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color: #ffff00;
+}
+
+#content {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    margin: 10px;
+    padding: 20px;
+}
+
+#content h2 {
+    text-align: center;
+    color: #000000;
+    font-family: "comic sans;", cursive, sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin: 0px;
+}
+
+
+#content p {
+    margin: 0 0 20px;
+    text-align: justify;
+}
+
+#content img {
+    border: 1px solid #000000;
+    margin: 10px;
+}
+
+#footer {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer p {
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0;
+}
