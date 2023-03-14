@@ -6,6 +6,13 @@ font-size: 14px;
 line-height: 1.5;
 margin: 0;
 padding: 0;
+cursor: url('purplecursor.png'), auto;
+display: flex;
+justify-content: center;
+}
+
+#header, #nav, #content {
+    width: 80%; 
 }
 
 a {
