@@ -1,0 +1,21 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animated-text {
+  font-size: 3rem;
+  color: #333;
+  animation: moveUpDown 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveUpDown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
