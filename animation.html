@@ -2,33 +2,47 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Maliyah Mohamed</title>
-     <link rel="stylesheet" type="text/css" href="animation.css">
-    
-  
+    <title>Animate Text</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
+      .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+
+      .text {
+        position: absolute;
+        font-size: 48px;
+        font-weight: bold;
+        color: #fff;
+        animation: slide 10s linear infinite;
+      }
+
+      @keyframes slide {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(100%);
+        }
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="responses.html">Responses</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="container">
-  <h1 class="animated-text">text will be animated hopefully</h1>
-</div>
-
-
-
-      
-    </main>
-    <footer>
-      
-    </footer>
+    <div class="container">
+      <h1 class="text">Welcome to My Website</h1>
+    </div>
   </body>
 </html>
+
