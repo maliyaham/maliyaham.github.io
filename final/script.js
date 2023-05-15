@@ -1,4 +1,3 @@
-console.log("hello")
 const inputbox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
@@ -8,20 +7,20 @@ function addTask(){
 	}
 	else{
 		let li = document.createElement("li");
-		li.innerHTML = inputBox.value;
+		li.innerHTML = inputbox.value;
 		listContainer.appendChild(li);
 		let span = document.createElement("span");
-		span.innerHTML = "\u00d7"
+		span.innerHTML = "\u00d7";
 		li.appendChild(span);
 	}
-	inputBox.value = "";
+	inputbox.value = "";
 }
 
-listContainer.addEventListener("click", function(e){
-	if(e.target.tagnName === "LI"){
-		e.target.classList.toggle("checked");
-	}
-else if(e.target.tagName === "SPAN"){
-	e.target.parentElement.remove();
-}
-},false);
+listContainer.addEventListener("click", function (e) {
+		if (e.target.tagName === "LI") {
+			e.target.classList.toggle("checked");
+		}
+		else if (e.target.tagName === "SPAN") {
+			e.target.parentElement.remove();
+		}
+	}, false);
